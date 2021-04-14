@@ -1,0 +1,108 @@
+{
+  "main": {
+    "id": "160bc3a9d757f771",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7569900e01e692e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Recommendation_System/Wide_Deep_Learning_for_Recommender_Systems.md",
+            "mode": "source"
+          }
+        },
+        "group": "7bd29d41902c92ff"
+      },
+      {
+        "id": "bd6c338ca9557817",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Recommendation_System/Wide_Deep_Learning_for_Recommender_Systems.md",
+            "mode": "source"
+          }
+        },
+        "group": "7bd29d41902c92ff"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7a44b1aa07ccdca9",
+    "type": "split",
+    "children": [
+      {
+        "id": "440e2b4e4ba66824",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "984b16ca284241dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "47b29c7cf5a4e780",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "66bbb609620adef7",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2656c76345ef145",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78d589c904ec8b7c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Recommendation_System/Wide_Deep_Learning_for_Recommender_Systems.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d7569900e01e692e",
+  "lastOpenFiles": [
+    "Recommendation_System/Wide_Deep_Learning_for_Recommender_Systems.md",
+    "Wide & Deep Learning for Recommender Systems.md",
+    "Untitled.md"
+  ]
+}
