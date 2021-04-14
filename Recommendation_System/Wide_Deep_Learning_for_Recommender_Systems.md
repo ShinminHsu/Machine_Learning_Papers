@@ -33,9 +33,17 @@ Deep
 - cons: 有的狀況反而使用 memorization 會更好，如 no interactions between most query-item pairs  
 
 # 2. Recommender System Overview
+<<<<<<< HEAD
 
 ![image](wide_deep_2.png)
 
+=======
+<<<<<<< HEAD
+![[wide_deep_2.png]]
+=======
+![image](wide_deep_2.png)
+>>>>>>> a3f6d202dba09e1dc8c145fe723649b99eda2a5f
+>>>>>>> 43a48844666e1b0332bfc97ad92670e564aaad21
 1. User input a query
 2. Retireval: The recommender system returns a list of apps
 	- items best match the query using various signals
