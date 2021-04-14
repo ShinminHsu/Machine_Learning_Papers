@@ -15,6 +15,17 @@
         "group": "7bd29d41902c92ff"
       },
       {
+        "id": "1fe3b971a51f9c9a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
         "id": "bd6c338ca9557817",
         "type": "leaf",
         "state": {
@@ -79,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recommendation_System/wide_deep_2.png",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,8 +108,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d7569900e01e692e",
+  "active": "1fe3b971a51f9c9a",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Recommendation_System/wide_deep_2.png",
     "Recommendation_System/Wide_Deep_Learning_for_Recommender_Systems.md",
     "Wide & Deep Learning for Recommender Systems.md",

@@ -33,7 +33,11 @@ Deep
 - cons: 有的狀況反而使用 memorization 會更好，如 no interactions between most query-item pairs  
 
 # 2. Recommender System Overview
+<<<<<<< HEAD
 ![[wide_deep_2.png]]
+=======
+![image](wide_deep_2.png)
+>>>>>>> a3f6d202dba09e1dc8c145fe723649b99eda2a5f
 1. User input a query
 2. Retireval: The recommender system returns a list of apps
 	- items best match the query using various signals
@@ -47,7 +51,7 @@ Deep
 		- impression features: e.g., app age, historical statistics of an app
 
 # 3. Wide & Deep Learning
-![[wide_deep_1.png]]
+![image](wide_deep_1.png)
 ## 3.1 The Wide Component
 - linear model $y=w^Tx+b$
 - y: prediction
@@ -74,7 +78,7 @@ Deep
 	- optimize all parameters simultaneously by taking both the wide and deep part as well as the weights of their sum into account at training time
 
 # 4. System Implementaion
-![[deep_wide_4.png|500]]
+![image](wide_deep_4.png)
 
 ## 4.1 Data Generation
 - Categorical data
