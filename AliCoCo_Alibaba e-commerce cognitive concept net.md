@@ -12,15 +12,19 @@ Luo, X., Liu, L., Yang, Y., Bo, L., Cao, Y., Wu, J., ... & Zhu, K. Q. (2020, Jun
 ![[Alicoco_table1.png]]
 
 ### 5.2.2 Classification
-- Knowledge-enhanced deep classification model
+- Goal: Automatically judge whether a candidate concept is a good e-commerce concept
+- Method: ==Knowledge-enhanced deep classification model==
 	- link each word of a concept to an external knowledge base
 	- introduce rich semantic information from it
 	- based on [[Wide_Deep_Learning_for_Recommender_Systems]]
 	- input: a candidate concept c
 	- output: score -> measuring the probability of c being good e-commerce concept
 - Conduct word segmentation before feeding to the model
-#### Deep
+#### Knowledge-enhanced deep classification model
+##### Deep
 Two components
 - a char level BiLSTM
 	- encode the candidate concept c by feeding the char-level embedding sequence
 - 
+
+##### Wide
