@@ -27,6 +27,22 @@ Two components
 	- encode the candidate concept c by feeding the char-level embedding sequence
 	- mean pooling
 	- get embedding $c_1$
-2. 
+2. Knowledge-enhanced module
+	**Part 1**
+	- Inputs: concatenate three embeddings
+		a. pretrained word embeddings
+		b. POS tag
+		c. NER label
+	- BiLSTM
+	- Self Attention
+	- Output: ${w'_1,w'_2,...,w'_m}$
+
+	**Part 2**
+	- Link each word to its corresponding Wikipedia article is possible
+	- Extract the gloss of each article as the external knowledge -> Doc2vec to encode
+	- Gloss: a short document to briefly introduce a word
+	- Output: ${k'_1,k'_2,...,k'_m}$
+	
+	Combine two parts
 
 ##### Wide
