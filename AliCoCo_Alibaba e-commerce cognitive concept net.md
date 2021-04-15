@@ -9,4 +9,18 @@ Luo, X., Liu, L., Yang, Y., Bo, L., Cao, Y., Wu, J., ... & Zhu, K. Q. (2020, Jun
 	- user-written reviews
 	- shopping guidance
 2. Generating new candidates using existing primitive concepts
-	- 
+![[Alicoco_table1.png]]
+
+### 5.2.2 Classification
+- Knowledge-enhanced deep classification model
+	- link each word of a concept to an external knowledge base
+	- introduce rich semantic information from it
+	- based on [[Wide_Deep_Learning_for_Recommender_Systems]]
+	- input: a candidate concept c
+	- output: score -> measuring the probability of c being good e-commerce concept
+- Conduct word segmentation before feeding to the model
+#### Deep
+Two components
+- a char level BiLSTM
+	- encode the candidate concept c by feeding the char-level embedding sequence
+- 
