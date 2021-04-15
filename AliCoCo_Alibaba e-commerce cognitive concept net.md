@@ -23,8 +23,10 @@ Luo, X., Liu, L., Yang, Y., Bo, L., Cao, Y., Wu, J., ... & Zhu, K. Q. (2020, Jun
 #### Knowledge-enhanced deep classification model
 ##### Deep
 Two components
-- a char level BiLSTM
+1. A char level BiLSTM
 	- encode the candidate concept c by feeding the char-level embedding sequence
-- 
+	- mean pooling
+	- get embedding $c_1$
+2. 
 
 ##### Wide
