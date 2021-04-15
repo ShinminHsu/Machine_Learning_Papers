@@ -89,4 +89,11 @@ The word representation wi = [xi; ci; pi]
 - get $tm_i$
 
 ### 5.3.2 Fuzzy CRF layer
-- 
+![[Alicoco_Figure7.png]]
+
+# 6 Item Association
+- Items <-> E-commerce concepts
+- Semantic drift
+	- items 和 e-commerce concepts 的關係不一定能夠以 primitive concepts 連在一起，例如木炭跟 "outdoor barbecue" 有關，但和 outdoor 無關
+- Method: `Knowledge-aware deep semantic matching model`
+![[Alicoco_Figure8.png]]
