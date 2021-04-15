@@ -20,13 +20,15 @@ Luo, X., Liu, L., Yang, Y., Bo, L., Cao, Y., Wu, J., ... & Zhu, K. Q. (2020, Jun
 	- input: a candidate concept c
 	- output: score -> measuring the probability of c being good e-commerce concept
 - Conduct word segmentation before feeding to the model
-#### Knowledge-enhanced deep classification model
+#### Knowledge-enhanced Deep Classification Model
+![[Alicoco_Figure5.png]]
 ##### Deep
 Two components
 1. A char level BiLSTM
 	- encode the candidate concept c by feeding the char-level embedding sequence
 	- mean pooling
-	- get embedding $c_1$
+	- Output: $c_2$
+
 2. Knowledge-enhanced module
 	**Part 1**
 	- Inputs: concatenate three embeddings
@@ -43,6 +45,19 @@ Two components
 	- Gloss: a short document to briefly introduce a word
 	- Output: ${k'_1,k'_2,...,k'_m}$
 	
-	Combine two parts
+	**Combine two parts**
+	- Max-pooling
+	- Output: $c_2$
 
 ##### Wide
+- Adopt pre-calculated features
+	- the number of characters and words of candidate concept
+	- the perplexity of candidate concept calculated by a BERT model trained on e-commerce corpus
+	- the popularity of each word appearing in e-commerce scenario
+- Two fully connecteed layers
+- Output: $c_3$
+
+##### Final Score
+- Concatenate the three embedding -> a MLP layer
+- Point-wise learning with the negative log-likelihood objective function
+![[Alicoco_Eq3.png|200]]
