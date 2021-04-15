@@ -60,4 +60,33 @@ Two components
 ##### Final Score
 - Concatenate the three embedding -> a MLP layer
 - Point-wise learning with the negative log-likelihood objective function
-![[Alicoco_Eq3.png|200]]
+![[Alicoco_Eq3.png|300]]
+
+## 5.3 Understanding
+- Goal: link e-commerce concepts to the primitve concepts -> `e-commerce concept tagging`
+- Method: `a short text Named Entity Recognition (NER) problem`
+- Challenges
+	- short concept phrases
+	- lack of contextual information
+- Solution: a text-augmented deep NER model with fuzzy CRF
+![[Alicoco_Figure6.png]]
+- Output: In/Out/Begin (I/O/B)
+### 5.3.1 Text-augmented concept encoder
+Three features: word-level, char-level features and position features
+- Char-level
+	- Use CNN with window size k to extract the char-level features for each word
+	- Max pooling
+- Word-level
+	- Use pre-trained word embeddings from GloVe
+- Position features
+	- Calculate part-of-speech tagging
+The word representation wi = [xi; ci; pi]
+-> feed into BiLSTM
+-> get $h_i$
+
+**Textual embedding matrix TM**
+- Mapping each word back to large-scale text corpus to extract surrounding contexts and encode them via Doc2vec
+- get $tm_i$
+
+### 5.3.2 Fuzzy CRF layer
+- 
